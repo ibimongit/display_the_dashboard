@@ -4,7 +4,6 @@
 # In[ ]:
 
 
-<!DOCTYPE html>
 
 <html>
 
