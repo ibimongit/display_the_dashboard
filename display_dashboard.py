@@ -4,26 +4,9 @@
 # In[ ]:
 
 
+import streamlit as st
+import streamlit.components.v1 as components
 
-<html>
-
-<body>
-
-<h1>Iframe streamlit Demo</h1>
-
-<p><strong>Url: </strong>http://localhost:8501/?x=10&y=20</p>
-
-<center>
-
-<iframe src=""http://10.12.105.26:8050"" width="600" height="600">
-
-  <p>Your browser does not support iframes.</p>
-
-</iframe>
-
-</center>
-
-</body>
-
-</html>
+# embed streamlit docs in a streamlit app
+components.iframe("https://docs.streamlit.io/en/latest")
 
